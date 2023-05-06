@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ilość cyfr (1-3)"
+
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ilość znaków specjalnych (1-3)"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editText1"
+        android:textAlignment="center"/>
+</RelativeLayout>
